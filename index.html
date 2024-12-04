@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fiesta de John</title>
+</head>
+
+<style>
+  body {
+    background-color: #add8e6; 
+  }
+</style>
+
+<body>
+  <h1>🎉 Fiesta de Colores 🎉</h1>
+  <div id="color-buttons">
+    <button class="color-btn" data-color="red"> Rojo</button>
+    <button class="color-btn" data-color="black"> Negro</button>
+    <button class="color-btn" data-color="white"> Blanco</button>
+  </div>
+  
+  <div id="color-counter">
+    <p>Rojo: <span id="count-red">0</span></p>
+    <p>Negro: <span id="count-black">0</span></p>
+    <p>Blanco: <span id="count-white">0</span></p>
+  </div>
+
+  <div id="color-adder">
+    <h2>Añadir nuevo color</h2>
+    <select id="new-color-selector">
+      <option value="blue">Azul</option>
+      <option value="green">Verde</option>
+      <option value="yellow">Amarillo</option>
+      <option value="pink">Rosa</option>
+      <option value="purple">Morado</option>
+      <option value="orange">Naranja</option>
+      <option value="brown">Marrón</option>
+      <option value="cyan">Cian</option>
+      <option value="magenta">Magenta</option>
+      <option value="lime">Lima</option>
+      <option value="indigo">Índigo</option>
+      <option value="violet">Violeta</option>
+      <option value="gray">Gris</option>
+      <option value="gold">Dorado</option>
+      <option value="silver">Plateado</option>
+      <option value="beige">Beige</option>
+      <option value="teal">Turquesa</option>
+      <option value="navy">Azul Marino</option>
+    </select>
+    <button id="add-color-btn">Añadir Color</button>
+ 
+    <div id="reset-container">
+      <button id="reset-btn"> Reiniciar Fiesta</button>
+    </div>
+  </div>
+
+  <audio id="background-music" autoplay loop>
+    <source src="sounds/black.mp3" type="audio/mpeg">
+    Tu navegador no soporta audio HTML5.
+  </audio>
+  
+
+  <script src="script.js"></script>
+  
+</body>
+
+</html>

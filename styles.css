@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+
+  body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #add8e6;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+#color-buttons {
+  margin: 20px;
+}
+
+.color-btn {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#color-counter {
+  margin-top: 20px;
+}
+
+#color-adder {
+  margin-top: 30px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #add8e6; 
+  margin: 0;
+  padding: 0;
+}
+
+#reset-container {
+  margin-top: 20px;
+}
+
+#reset-btn {
+  background-color: #ff6347; /* Tomate */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#reset-btn:hover {
+  background-color: #ff4500; /* Naranja oscuro */
+}
